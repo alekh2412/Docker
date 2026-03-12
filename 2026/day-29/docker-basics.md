@@ -51,3 +51,10 @@ Docker Daemon
    │
    ▼
 Docker Registry (Docker Hub)<br>
+
+## install docker
+Output explanation:
+Docker checks if the hello-world image exists locally.
+If not, Docker pulls the image from Docker Hub.
+Docker creates a container from the image.
+The container runs a program that prints a confirmation message.
